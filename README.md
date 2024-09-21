@@ -24,7 +24,7 @@ Durante o laboratório, aprendi a:
 - Customizar a aparência do portal Azure.
 - Navegar e localizar serviços por categorias dentro da plataforma.
 
-## Benefícios da nuvem - Laboratório
+## Benefícios da nuvem - Laboratório 19/09/2024 15:15
 #### SLA (Service Level Agreement) e os 9's
 
 No Azure, o SLA define o percentual de disponibilidade garantido para os serviços. A disponibilidade é medida com base no número de "9's", o que impacta diretamente o tempo de indisponibilidade permitido. Abaixo está uma tabela detalhando o tempo de inatividade máximo por nível de SLA em diferentes períodos (semana, mês e ano):
@@ -53,5 +53,27 @@ No Azure, existem diferentes tipos de **contas de armazenamento**, cada uma com 
 
 A escolha do tipo de conta depende dos requisitos de disponibilidade, desempenho e custo do projeto.
 
+#21/09/2024
+## Tipos de Serviço em Nuvem: IaaS, PaaS e SaaS
+
+Na última aula, foram explorados os principais modelos de serviço em nuvem: 
+- **IaaS (Infrastructure as a Service)**
+- **PaaS (Platform as a Service)**
+- **SaaS (Software as a Service)**.
+
+Cada modelo oferece diferentes níveis de gerenciamento e responsabilidade, conforme descrito abaixo:
+- **IaaS (Infrastructure as a Service)**: Proporciona recursos de computação em nuvem, como servidores virtuais, armazenamento e redes. O usuário é responsável pela instalação e gerenciamento do sistema operacional e dos aplicativos, enquanto o provedor cuida da infraestrutura física.
+
+- **PaaS (Platform as a Service)**: Oferece uma plataforma completa para desenvolvimento, testes e implantação de aplicações. O provedor gerencia a infraestrutura subjacente, permitindo que os desenvolvedores se concentrem no código e na funcionalidade do aplicativo, sem se preocupar com a manutenção do hardware ou do sistema operacional.
+
+- **SaaS (Software as a Service)**: Fornece aplicativos prontos para uso, acessíveis pela internet. O provedor é responsável pela manutenção, atualizações e segurança do software. Ao escolher um serviço SaaS, como um banco de dados, o Azure permite selecionar um servidor que será gerenciado pela Microsoft, garantindo sua operação e manutenção.
+
+### Tabela de Modelo de Responsabilidade Compartilhada
+
+A seguir, a tabela que ilustra o modelo de responsabilidade compartilhada entre o provedor de nuvem e o cliente, apresentada durante a aula:
+![Modelo de Responsabilidade Compartilhada](https://github.com/Dani-dba/microsoft_azure_lab/commit/d9638dcc5e6649da68591114ea50a0348f495c43)
+
+
+Durante a aula, foi demonstrado no portal do Azure como, ao selecionar configurações e a região do serviço, é possível verificar imediatamente o custo associado. Essa funcionalidade permite que os usuários tomem decisões informadas sobre a utilização de serviços em nuvem, otimizando custos e recursos.
 
 **Este repositório será atualizado conforme avanço nos estudos e realizo novos laboratórios.**
